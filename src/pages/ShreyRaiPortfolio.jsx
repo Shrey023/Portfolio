@@ -8,6 +8,7 @@ import VibrantTorus from '../components/3D/VibrantTorus';
 import Scene3D from '../components/3D/Scene3D';
 
 const ShreyRaiPortfolio = () => {
+  // eslint-disable-next-line no-unused-vars
   const { isDark } = useTheme();
   
   const projects = [
