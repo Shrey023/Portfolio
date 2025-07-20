@@ -109,7 +109,7 @@ const ShreyashPortfolio = () => {
               animate="animate"
             >
               <motion.img
-                src={require('../images/shreyash.png')}
+                src={require('../images/shreyash_portfolio.png')}
                 alt="Shreyash Mutha"
                 className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white/20"
                 whileHover={{ scale: 1.1, rotate: 5 }}

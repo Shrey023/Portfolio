@@ -13,7 +13,7 @@ const Home = () => {
       name: 'Shreyash Mutha',
       role: 'AI & Data Science Student',
       description: 'Enthusiastic AI & Data Science student passionate about building real-world solutions with deep learning and GenAI.',
-      image: require('../images/shreyash.png'),
+      image: require('../images/shreyash_portfolio.png'),
       path: '/shreyash',
       skills: ['Deep Learning', 'GenAI', 'Data Science', 'Python']
     },
@@ -22,7 +22,7 @@ const Home = () => {
       name: 'Shrey Rai',
       role: 'Web Developer',
       description: 'Creative web developer with an eye for design and detail, loves building UI and interactive experiences.',
-      image: require('../images/shrey.png'),
+      image: require('../images/shrey_portfolio.png'),
       path: '/shrey',
       skills: ['React', 'UI/UX', 'JavaScript', 'Design']
     },
@@ -31,7 +31,7 @@ const Home = () => {
       name: 'Omkar Shinde',
       role: 'Backend Engineer',
       description: 'Backend-focused engineer with interest in scalable APIs and cloud infrastructure.',
-      image: require('../images/omkar.png'),
+      image: require('../images/omkar_portfolio.png'),
       path: '/omkar',
       skills: ['Node.js', 'APIs', 'DevOps', 'Cloud']
     }

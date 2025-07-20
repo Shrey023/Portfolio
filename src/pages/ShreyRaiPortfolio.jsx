@@ -112,7 +112,7 @@ const ShreyRaiPortfolio = () => {
               animate="animate"
             >
               <motion.img
-                src={require('../images/shrey.png')}
+                src={require('../images/shrey_portfolio.png')}
                 alt="Shrey Rai"
                 className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white/20"
                 whileHover={{ scale: 1.1, rotate: 5 }}

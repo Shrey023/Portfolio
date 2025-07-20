@@ -122,7 +122,7 @@ const OmkarPortfolio = () => {
               animate="animate"
             >
               <motion.img
-                src={require('../images/omkar.png')}
+                src={require('../images/omkar_portfolio.png')}
                 alt="Omkar Shinde"
                 className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white/20"
                 whileHover={{ scale: 1.1, rotate: 5 }}
