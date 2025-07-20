@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Dark mode transitions */
+  * {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-max {
+    @apply max-w-6xl mx-auto;
+  }
+  
+  .gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+
+  .gradient-bg-dark {
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 ease-in-out hover:transform hover:-translate-y-2 hover:shadow-xl;
+  }
+
+  /* 3D Scene Styles */
+  .scene-3d {
+    @apply relative overflow-hidden rounded-lg;
+  }
+
+  .scene-3d canvas {
+    @apply w-full h-full;
+  }
+
+  /* Enhanced hover effects */
+  .hover-3d {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .hover-3d:hover {
+    @apply transform scale-105 shadow-2xl;
+  }
+
+  /* Glass morphism effect */
+  .glass {
+    @apply backdrop-blur-sm bg-white/10 dark:bg-gray-900/10 border border-white/20 dark:border-gray-700/20;
+  }
+
+  /* Animated gradient background */
+  .animated-gradient {
+    background: linear-gradient(-45deg, #667eea, #764ba2, #f093fb, #f5576c);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+  }
+
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  /* Dark mode animated gradient */
+  .animated-gradient-dark {
+    background: linear-gradient(-45deg, #1e293b, #334155, #475569, #64748b);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+  }
+
+  /* Floating animation for 3D elements */
+  .floating {
+    animation: floating 6s ease-in-out infinite;
+  }
+
+  @keyframes floating {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  /* Pulse animation */
+  .pulse-glow {
+    animation: pulseGlow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes pulseGlow {
+    from {
+      box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+    }
+    to {
+      box-shadow: 0 0 30px rgba(99, 102, 241, 0.6);
+    }
+  }
+}
