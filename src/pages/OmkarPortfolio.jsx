@@ -122,7 +122,7 @@ const OmkarPortfolio = () => {
               animate="animate"
             >
               <motion.img
-                src="/src/images/omkar.png"
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"
                 alt="Omkar Shinde"
                 className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white/20"
                 whileHover={{ scale: 1.1, rotate: 5 }}

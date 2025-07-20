@@ -13,7 +13,7 @@ const Home = () => {
       name: 'Shreyash Mutha',
       role: 'AI & Data Science Student',
       description: 'Enthusiastic AI & Data Science student passionate about building real-world solutions with deep learning and GenAI.',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face',
+      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&crop=face',
       path: '/shreyash',
       skills: ['Deep Learning', 'GenAI', 'Data Science', 'Python']
     },
@@ -22,7 +22,7 @@ const Home = () => {
       name: 'Shrey Rai',
       role: 'Web Developer',
       description: 'Creative web developer with an eye for design and detail, loves building UI and interactive experiences.',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face',
       path: '/shrey',
       skills: ['React', 'UI/UX', 'JavaScript', 'Design']
     },
@@ -31,7 +31,7 @@ const Home = () => {
       name: 'Omkar Shinde',
       role: 'Backend Engineer',
       description: 'Backend-focused engineer with interest in scalable APIs and cloud infrastructure.',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face',
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face',
       path: '/omkar',
       skills: ['Node.js', 'APIs', 'DevOps', 'Cloud']
     }

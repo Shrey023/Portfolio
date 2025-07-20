@@ -112,7 +112,7 @@ const ShreyRaiPortfolio = () => {
               animate="animate"
             >
               <motion.img
-                src="/src/images/shrey.png"
+                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
                 alt="Shrey Rai"
                 className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white/20"
                 whileHover={{ scale: 1.1, rotate: 5 }}
