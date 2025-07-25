@@ -68,7 +68,8 @@ A professional and responsive portfolio website built with **React** and **Tailw
 
 ---
 
-## 🗂️ Project Structure
+## 🗂️ Project Structure'
+```
 src/
 ├── components/
 │   ├── Navbar.jsx          # Shared navigation component
@@ -81,7 +82,7 @@ src/
 ├── App.js                  # Main app with routing
 ├── index.js                # Entry point
 └── index.css               # Tailwind CSS and custom styles
-
+```
 ---
 
 ## 🛠️ Technologies Used
